@@ -7,7 +7,6 @@
   "source": "https://github.com/hercules-team/augeasproviders_pam",
   "project_page": "https://github.com/hercules-team/augeasproviders_pam",
   "issues_url": "https://github.com/hercules-team/augeasproviders_pam/issues",
-  "description": "This module provides type/providers for PAM using the Augeas configuration API library.",
   "dependencies": [
     {
       "name": "herculesteam/augeasproviders_core",
@@ -41,6 +40,13 @@
     }
   ],
   "requirements": [
-    { "name": "puppet", "version_requirement": ">= 5.0.0 < 7.0.0" }
-  ]
+    {
+      "name": "puppet",
+      "version_requirement": ">= 5.0.0 < 7.0.0"
+    }
+  ],
+  "description": "This module provides type/providers for PAM using the Augeas configuration API library.",
+  "pdk-version": "2.4.0",
+  "template-url": "pdk-default#2.4.0",
+  "template-ref": "tags/2.4.0-0-gfa6b6d2"
 }
